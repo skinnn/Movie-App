@@ -1,0 +1,21 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Simple movie app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "*",
+    "bootstrap": "^3.3.7",
+    "express": "*",
+    "git": "^0.1.5",
+    "jquery": "^3.1.1",
+    "mongoose": "*"
+  },
+  "author": "Nikola Jovanovic",
+  "license": "ISC"
+}

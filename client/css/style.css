@@ -1,0 +1,39 @@
+body {
+	background-color: gray;
+}
+
+h4 {
+	text-align: center;
+	color: black;
+}
+
+.movieThumbnail {
+	
+	max-height: 380px;
+	max-width: 220px;
+	min-height: 360px;
+	min-width: 150px;
+}
+
+.back {
+	color: black;
+}
+
+.movieStats {
+	text-align: center;
+	color: gray;
+}
+
+.movieTitle {
+	font-size: 20px;
+}
+
+.movieYear {
+	color: gray;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+img {
+	height: 100%;
+}

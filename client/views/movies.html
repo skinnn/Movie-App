@@ -1,0 +1,17 @@
+<div class="panel panel-default" ng-init="getMovies()">
+    <div class="panel-heading">
+        <h3 class="panel-title">Latest Movies</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+          <div ng-repeat="movie in movies" class="col-md-4 col-md-3">
+            <div class="movieThumbnail thumbnail">
+                <h4><span class="movieTitle">{{movie.title}}</span> <span class="movieYear">({{movie.year}})</span></h4>
+                <p class="movieStats">{{movie.rated}} | {{movie.runtime}} | {{movie.imdb_score}}</p>
+                <a href="#/movies/details/{{movie._id}}"><img class="thumbnail" ng-src="{{movie.img_url}}"></a>
+                <!-- <a href="#" class="btn btn-default" role="button">Delete</a></p> -->
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
