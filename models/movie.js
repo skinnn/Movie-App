@@ -117,10 +117,3 @@ module.exports.removeMovie = function(id, callback){
     var query = {_id: id};
     Movie.remove(query, callback);
 }
-
-
-// Ako se ne unesu required keys tokom update-a ili add-a;
-// server crashuje
-// Promptovati usera tokom delete-a i edit-a da li je
-//  siguran da zeli da izvrsi operaciju
-// Napraviti register i log-in system
